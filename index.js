@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { WebView, Platform, View, ViewPropTypes } from 'react-native';
+import { Platform, View, ViewPropTypes } from 'react-native';
 import { PropTypes } from 'prop-types';
+import { WebView } from 'react-native-webview';
 
 class StripeCheckout extends Component {
   render() {
